@@ -13,7 +13,10 @@ body{
 background:#E7E8D1 ;
 width:550px;
 border-radius: 10px;
-
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center; 
 
 }
 .container h1{
@@ -24,21 +27,25 @@ border-radius: 10px;
 }
 .input-link{
     margin-top: 10px;
+    margin-left: 1px;
     background-color: #9b9e6d;
-    width: 400px;
+    max-width: 340px;
     height: 40px;
-    transform:translate(20%) ;
     display: flex;
+    justify-content: center;
+    align-items: center; 
+    
     border-radius: 5px;
+    
 }
 .input-link #input{
-    flex: 1;
+   
     background-color: #ffffff;
     font-size: 20px;
     padding: 5px;
     width: 300px;
     height: 30px;
-    margin: 5px 5px;   
+       
     border: none;
     border-radius: 5px;
     outline: 0;
@@ -46,8 +53,12 @@ border-radius: 10px;
 #qr-code{
     min-height: 300px;
 }
+.generate{
+    display: flex;
+    justify-content: center; align-items: center; 
+}
 #generate{
-    transform: translate(150%);
+    
     height:30px;
     font-weight: 600;
     background: #B85042;
@@ -58,6 +69,7 @@ border-radius: 10px;
     border-radius: 5px;
     margin-bottom: 30px;
     margin-top: -30PX;
+    
 }
 #qr-code{
     margin-top: -50px;
